@@ -1,0 +1,20 @@
+from math import *
+x=2
+z=1
+t=1
+r1=x**((2*z)**t)+(x**(2*t))**t+x**t**(2*z) 
+print('r1=', r1)
+x=2
+y=2
+z=1
+t=1
+r2=(5*x*y*z/4*3*2)+abs(x**(3*t))
+print('r2=', r2)
+x=4
+e=2.7
+r3=2*(sin(2*(x**2)))**5+e**(3*cos(x))-7
+print('r3=', r3)
+x=2
+y=2
+r4=abs(log(x*4+3))-tan(x/2)/3*x-4*y
+print('r4=', r4)
