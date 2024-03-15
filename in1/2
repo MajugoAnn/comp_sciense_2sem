@@ -1,0 +1,5 @@
+from math import *
+u7=0
+v=1
+r=2*cos(3*(u7/v))-e**(-(u7/v))/((u7/v)+2*(u7+v)+1)
+print('r', r)
