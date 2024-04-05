@@ -1,0 +1,19 @@
+import random
+
+# print(random. randint(3, 9))
+a= []
+b= []
+c= []
+
+for i in range(0, 10):
+    a. append(random. randint(1, 50))
+    b. append(random. randint(1, 50))
+
+
+print(a)
+print(b)
+
+for i  in range(len(a)):
+    c.append(a[i] - b[i])
+
+    print(c)
